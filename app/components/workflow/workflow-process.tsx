@@ -78,10 +78,10 @@ const WorkflowProcessItem = ({
             <AlertCircle className='shrink-0 mr-1 w-3 h-3 text-[#F04438]' />
           )
         }
-        <div className='grow text-xs font-medium text-gray-700 leading-[18px]'>Workflow Process</div>
+        <div className='grow text-xs font-medium text-gray-700 leading-[18px]'>智能体处理</div>
         <ChevronRight className={`'ml-1 w-3 h-3 text-gray-500' ${collapse ? '' : 'rotate-90'}`} />
       </div>
-      {
+      {/* {
         !collapse && (
           <div className='mt-1.5'>
             {
@@ -96,7 +96,7 @@ const WorkflowProcessItem = ({
             }
           </div>
         )
-      }
+      } */}
     </div>
   )
 }
